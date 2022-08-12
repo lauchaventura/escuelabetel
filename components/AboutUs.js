@@ -5,8 +5,8 @@ const AboutUs = () => {
   return (
     <div>
       <Center
-        ml={[5, 20]}
-        mr={[5, 20]}
+        ml={[3, 20]}
+        mr={[3, 20]}
         display={{base: "column", md: "flex", lg: "56px"}}
         alignItems='center'
         color='#0a100d'

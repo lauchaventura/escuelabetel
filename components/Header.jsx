@@ -1,6 +1,6 @@
 import React from "react";
 import {useRouter} from "next/router";
-
+import styles from "./Navbar.module.css";
 import {
   Box,
   Stack,
@@ -43,20 +43,11 @@ const Header = props => {
         padding={2}
         width='100%'
         {...props}
-        position='fixed'
+        position='absolute'
         color='white'
         boxSizing='border-box'
-        z-index={999}
-        className={navbar ? "navbar-active" : "navbar"}
+        className={navbar ? "{styles.navbar-active}" : "{styles.navbar}"}
       >
-        <style jsx>{`
-          .navbar {
-            background-color: blue;
-          }
-          .navbar-active {
-            background-color: red;
-          }
-        `}</style>
         <Flex align='center'>
           <div onClick={() => router.push("/")}>
             <Box w='23' p={1}>

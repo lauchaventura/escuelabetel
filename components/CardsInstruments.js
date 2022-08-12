@@ -12,7 +12,7 @@ const CardsInstruments = () => {
           </Text>
         </Box>
 
-        <Text fontWeight={500}>
+        <Text fontWeight={500} p={[2, 1]}>
           3 clases semanales donde abordaremos cada contenido puntual
         </Text>
         <SimpleGrid columns={[1, 2, 3, 4]} p={3} spacing={3}>

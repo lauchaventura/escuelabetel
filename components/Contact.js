@@ -45,7 +45,7 @@ const Contact = () => {
 
             <Text fontWeight={700} fontSize='18px'>
               <Icon as={FaMapMarkerAlt} cursor='pointer' />
-              {""} Av. San Juan 1744, General Roca
+              {""} Av. San Juan 1760, General Roca
             </Text>
             <Box mt={6}>
               <Text fontWeight={700} fontSize='18px'>
@@ -53,33 +53,35 @@ const Contact = () => {
                 {""} +54 9 2984112233
               </Text>
             </Box>
-            <Text fontWeight={900} mt={9}>
-              SEGUINOS
-            </Text>
-            <Box align='start' justify='center'>
-              <Grid mt={4} gap={4} display='flex' align='center'>
-                <IconButton
-                  colorScheme='pink'
-                  aria-label='Send email'
-                  _focus={{outline: "none"}}
-                  icon={<FaInstagram />}
-                />
-                <IconButton
-                  colorScheme='facebook'
-                  aria-label='Send email'
-                  _focus={{outline: "none"}}
-                  icon={<FaFacebook />}
-                />
-                <IconButton
-                  _focus={{outline: "none"}}
-                  colorScheme='red'
-                  aria-label='Send email'
-                  icon={<FaYoutube />}
-                />
-              </Grid>
+            <Box>
+              <Text fontWeight={900} mt={9} align='center'>
+                SEGUINOS
+              </Text>
+              <Box align='center'>
+                <SimpleGrid maxW={60} columns={3} mt={4} gap={4}>
+                  <IconButton
+                    colorScheme='pink'
+                    aria-label='Send email'
+                    _focus={{outline: "none"}}
+                    icon={<FaInstagram />}
+                  />
+                  <IconButton
+                    colorScheme='facebook'
+                    aria-label='Send email'
+                    _focus={{outline: "none"}}
+                    icon={<FaFacebook />}
+                  />
+                  <IconButton
+                    _focus={{outline: "none"}}
+                    colorScheme='red'
+                    aria-label='Send email'
+                    icon={<FaYoutube />}
+                  />
+                </SimpleGrid>
+              </Box>
             </Box>
           </Box>
-          <Box p={7}>
+          <Box p={[3, 7]} mt={[2, 0]}>
             <Input placeholder='Nombre' focusBorderColor='white' />
             <Input placeholder='Correo' mt={5} focusBorderColor='white' />
             <Input

@@ -25,10 +25,10 @@ const Presentation = () => {
         alignItems='center'
         align='center'
       >
-        <Box pt={[14, 4]}>
+        <Box pt={[14, 12, 4]}>
           <Text
             align='center'
-            fontSize={[60, 80, 100, 120]}
+            fontSize={[57, 66, 100, 120]}
             color='white'
             fontWeight={700}
             lineHeight={0.8}
@@ -37,16 +37,22 @@ const Presentation = () => {
             Inscripciones abiertas
           </Text>
         </Box>
-        <Button
-          _hover={{bg: "white", color: "black"}}
-          size='lg'
-          variant='outline'
-          mt={7}
-          color='white'
-          _focus={{outline: "none"}}
+        <Link
+          src='https://l.instagram.com/?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLScb4ZSXMghNOEj1JsKtgKdSjGei9jUQAs9n7PFhIFY8IsfKXQ%2Fviewform%3Fusp%3Dsf_link&e=ATNxv0U_-4WQzJU3oL7ld_O1--5nHoPHfzLPcN4GNv6ecNHNvDw1LrmKMPFb4c7oc-gEdaw7mDPSZs6c_xkxCw&s=1'
+          isExternal
+          style={{textDecoration: "none"}}
         >
-          Quiero anotarme
-        </Button>
+          <Button
+            _hover={{bg: "white", color: "black"}}
+            size='lg'
+            variant='outline'
+            mt={7}
+            color='white'
+            _focus={{outline: "none"}}
+          >
+            Quiero anotarme
+          </Button>
+        </Link>
       </Box>
     </>
   );
