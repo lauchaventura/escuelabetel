@@ -38,7 +38,7 @@ const Presentation = () => {
           </Text>
         </Box>
         <Link
-          src='https://l.instagram.com/?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLScb4ZSXMghNOEj1JsKtgKdSjGei9jUQAs9n7PFhIFY8IsfKXQ%2Fviewform%3Fusp%3Dsf_link&e=ATNxv0U_-4WQzJU3oL7ld_O1--5nHoPHfzLPcN4GNv6ecNHNvDw1LrmKMPFb4c7oc-gEdaw7mDPSZs6c_xkxCw&s=1'
+          href='https://l.instagram.com/?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLScb4ZSXMghNOEj1JsKtgKdSjGei9jUQAs9n7PFhIFY8IsfKXQ%2Fviewform%3Fusp%3Dsf_link&e=ATNxv0U_-4WQzJU3oL7ld_O1--5nHoPHfzLPcN4GNv6ecNHNvDw1LrmKMPFb4c7oc-gEdaw7mDPSZs6c_xkxCw&s=1'
           isExternal
           style={{textDecoration: "none"}}
         >
