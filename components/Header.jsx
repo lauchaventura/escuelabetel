@@ -63,7 +63,7 @@ const Header = props => {
                 Escuela Betel
               </Text> */}
               <Image
-                ml={5}
+                ml={[0, 0, 0, 5]}
                 maxW='65px'
                 src='https://res.cloudinary.com/dsjas6fvz/image/upload/v1660072677/Escuela%20Betel/logo_fondo_blanco_pdtgqz.png'
               />
