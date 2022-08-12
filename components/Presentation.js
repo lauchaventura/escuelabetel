@@ -25,16 +25,27 @@ const Presentation = () => {
         alignItems='center'
         align='center'
       >
-        <Box pt={[14, 12, 4]}>
+        <Box pt={[16, 12, 4]}>
           <Text
             align='center'
-            fontSize={[57, 66, 100, 120]}
+            fontSize={[47, 60, 90, 120]}
             color='white'
             fontWeight={700}
             lineHeight={0.8}
             pt={40}
           >
-            Inscripciones abiertas
+            Inscripciones
+          </Text>
+        </Box>
+        <Box>
+          <Text
+            align='center'
+            fontSize={[65, 66, 100, 120]}
+            color='white'
+            fontWeight={700}
+            lineHeight={0.8}
+          >
+            abiertas
           </Text>
         </Box>
         <Link

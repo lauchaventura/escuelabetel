@@ -84,7 +84,7 @@ const Header = props => {
           columnGap={8}
           mt={{base: 4, md: 0}}
         >
-          <div onClick={() => router.push("/programs")}>
+          <div onClick={() => router.push("/")}>
             <Text
               cursor='pointer'
               fontWeight='semibold'
@@ -95,7 +95,7 @@ const Header = props => {
               Como llegar
             </Text>
           </div>
-          <div onClick={() => router.push("/projects")}>
+          <div onClick={() => router.push("/")}>
             <Text
               cursor='pointer'
               _hover={{color: "#ffcdb2"}}
@@ -106,7 +106,7 @@ const Header = props => {
               Quienes somos?
             </Text>
           </div>
-          <div onClick={() => router.push("/contact")}>
+          <div onClick={() => router.push("/")}>
             <Text
               cursor='pointer'
               _hover={{color: "#ffcdb2"}}
